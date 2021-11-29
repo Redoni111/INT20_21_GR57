@@ -285,3 +285,195 @@ p{
 
 
 /*End Hero Section*/
+
+/*second section*/
+#second
+
+     .second {
+        flex-direction:column;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0;
+        padding: 100px 0;
+    }
+
+#second .second-top{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+#second .second-bottom{
+    display: flex;
+    align-items: right;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#second .second-item1{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    padding: 120px;
+    border-radius: 10px;
+    background-image: url(./1.jpg);
+    background-size: cover;
+    margin: 45px 40%;
+    position: relative;
+    z-index: 1;
+}
+#second .second-item2{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    padding: 120px;
+    border-radius: 10px;
+    background-image: url(./1.jpg);
+    background-size: cover;
+    margin: 45px 40%;
+    position: relative;
+    z-index: 1;
+}
+#second .second-item3{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    padding: 120px;
+    border-radius: 10px;
+    background-image: url(./1.jpg);
+    background-size: cover;
+    margin: 45px 40%;
+    position: relative;
+    z-index: 1;
+}
+#second .second-item4{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    padding: 120px;
+    border-radius: 10px;
+    background-image: url(./1.jpg);
+    background-size: cover;
+    margin: 45px 40%;
+    position: relative;
+    z-index: 1;
+}
+#second .second-item1::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: .9;
+    z-index: -1;
+}
+
+#second .second-item2::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: .9;
+    z-index: -1;
+}
+
+#second .second-item3::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: .9;
+    z-index: -1;
+}
+#second .second-item4::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: .9;
+    z-index: -1;
+}
+#second .second-bottom .icon{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+#second .second-item1 h2{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+#second .second-item1 p{
+    color: black;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+
+#second .second-item2 h2{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+#second .second-item2 p{
+    color: black;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+
+#second .second-item3 h2{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+#second .second-item3 p{
+    color: black;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+
+#second .second-item4 h2{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+#second .second-item4 p{
+    color: black;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+/*end second section*/
