@@ -477,3 +477,108 @@ p{
     line-height: 1.9rem;
 }
 /*end second section*/
+/*Animal Section*/
+#animals .animals{
+    flex-direction: column;
+    max-width: 1200px;
+    font-size: 50px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#animals .animals-header h1{
+    margin-bottom: 50px;
+  
+}
+
+#animals .all-animals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#animals .animal-item{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#animals .animal-info{
+    padding: 30px;
+    padding-inline: 87px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blue
+}
+
+#animals .animal-info h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+#animals .animal-info h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+#animals .animal-info p{
+    color: white;
+}
+
+#animals .animal-img{
+    flex-basis: 50%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+#animals .animal-img:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .3;
+}
+#animals .animal-img img{
+    transition: .3s ease transform;
+}
+#animals .animal-item:hover .animal-img img{
+    transform: scale(1.1);
+}
+
+.social-icon {
+    display: flex;
+    margin-top: 30px;
+   
+}
+.social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+
+.social-item img{
+    filter: grayscale(1);
+    transition: .3s ease filter;
+}
+.social-item:hover img{
+    filter: grayscale(0);
+}
+p{
+    color: white;
+    font-size: 1.3rem;
+}
+/*End Animal Section*/
